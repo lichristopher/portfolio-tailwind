@@ -1,0 +1,66 @@
+# Dependency directories
+node_modules/
+
+#Parcel
+.parcel-cache/
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# Built files
+dist/
+build/
+out/
+
+# Coverage output
+coverage/
+
+# .DS_Store (macOS system file)
+.DS_Store
+
+# .env.local (local environment variables)
+.env.local
+
+# .env.development.local, .env.test.local, .env.production.local (local environment variables for different modes)
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js generated files
+npm-debug.log
+yarn-error.log
+
+# User-specific files
+.npmrc
+yarn.lock
+yarn-error.log
+
+# Visual Studio Code directory
+.vscode/
+
+# .idea (JetBrains IDEs directory)
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Compiled output
+*.o
+*.out
+*.pid
+*.log
+*.swp
+
+# Local build directory
+build/
+dist/
+
+# Sensitive or environment-specific config
+config.js
+config.local.js
+config.dev.js
+config.prod.js
